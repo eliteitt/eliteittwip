@@ -407,7 +407,7 @@ text-decoration:none;
         display: grid;
         grid-row-gap: 10px;
         grid-column-gap: 10px;
-        grid-template-columns: 24% 24% 26% 26%;
+        grid-template-columns: 25% 25% 25% 25%;
         background-color: #fff;
         color: #444;
         align-items: stretch;
@@ -430,6 +430,10 @@ text-decoration:none;
 #grid_legal .b {
         grid-column: 2 / span 3;
     }
+#grid_legal .b1 {
+        grid-column: 2 / span 2;
+    }
+
 #grid_legal .c {
         grid-column: 2 ;
         grid-row: 2 ;
@@ -442,6 +446,8 @@ text-decoration:none;
         grid-column: 4 ;
         grid-row: 2 ;
     }
+
+
   
 /* Grid - Medical services */
 
@@ -527,29 +533,3 @@ text-decoration:none;
         grid-row: 1 / span 2;
     }
  
-/* Grid - Single Column */
-
-#grid_single {
-        display: grid;
-        grid-row-gap: 10px;
-        grid-column-gap: 10px;
-        grid-template-columns: 100%;
-        background-color: #fff;
-        color: #444;
-        align-items: stretch;
-        padding-bottom: 20px;
-    }
-
-#grid_single strong{float:center; margin:0px 0 0 0px; padding:0; font-size:18px; font-weight:normal; color:#660000; }
-#grid_single ul{list-style-type: disc;}
-#grid_single ul li{text-align: left; margin:10px 0 0 10px; padding:0px; font-family:Verdana, Arial, helvetica, sans-serif;font-size:13px; font-weight: normal; color:#555555; }
-#grid_single .cell {
-        background-color: #ebebeb;
-        border-radius: 10px;
-        padding: 20px;
-    }
-  
-#grid_single .a {
-        grid-column: 1;
-        grid-row: 1 ;
-    }
