@@ -527,3 +527,29 @@ text-decoration:none;
         grid-row: 1 / span 2;
     }
  
+/* Grid - Single Column */
+
+#grid_single {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: 50%;
+        background-color: #fff;
+        color: #444;
+        align-items: stretch;
+        padding-bottom: 20px;
+    }
+
+#grid_single strong{float:center; margin:0px 0 0 0px; padding:0; font-size:18px; font-weight:normal; color:#660000; }
+#grid_single ul{list-style-type: disc;}
+#grid_single ul li{text-align: left; margin:10px 0 0 10px; padding:0px; font-family:Verdana, Arial, helvetica, sans-serif;font-size:13px; font-weight: normal; color:#555555; }
+#grid_single .cell {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        padding: 20px;
+    }
+  
+#grid_single .a {
+        grid-column: 1;
+        grid-row: 1 ;
+    }
