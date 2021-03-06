@@ -518,6 +518,10 @@ text-decoration:none;
         grid-column: 1 ;
         grid-row: 3;
     }
+#grid_teaching .c1 {
+        grid-column: 1 ;
+        grid-row: 2;
+    }
 #grid_teaching .d {
         grid-column: 2 ;
         grid-row: 2;
